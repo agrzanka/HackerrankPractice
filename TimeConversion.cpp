@@ -20,8 +20,8 @@ string timeConversion(string s) {
             }
         return s;
     }
-
-    h+=12;
+    if(h!=12)
+        h+=12;
     s[0]=h/10+'0';
     s[1]=h%10+'0';
 
