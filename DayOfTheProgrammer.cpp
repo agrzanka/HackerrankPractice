@@ -12,7 +12,7 @@ string dayOfProgrammer(int year) {
     {
         day="26";
     }
-    if(year<1918&&year%4==0)
+    else if(year<1918&&year%4==0)
         day="12";
     else if(year>1918&&(year%400==0||(year%4==0&&year%100!=0)))
         day="12";
